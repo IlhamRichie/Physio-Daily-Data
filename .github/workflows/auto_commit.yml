@@ -1,0 +1,33 @@
+name: Daily Stroke Research Scraper
+
+on:
+  schedule:
+    # Jalan otomatis setiap jam 00:00 UTC (sekitar jam 7 pagi WIB)
+    - cron: '0 0 * * *' 
+  workflow_dispatch: # Biar kamu bisa klik tombol "Run" manual buat ngetes
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Wajib ada biar bot diizinkan nge-push kode ke repo kamu
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install module requests
+        run: pip install requests
+
+      - name: Jalankan Scraper dan Buat Random Commits
+        run: python scraper.py
+
+      - name: Push semua hasil commit ke GitHub
+        run: git push origin main
