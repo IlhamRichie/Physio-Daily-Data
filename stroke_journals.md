@@ -10,3 +10,6 @@
 - [Letter to editor: 'respiratory - swallow coordination training using bimodal signal biofeedback for patients with post - stroke dysphagia: a randomized controlled trial'.](https://pubmed.ncbi.nlm.nih.gov/41641536/)
 - [Critical insight on 'respiratory swallow coordination training using bimodal signal biofeedback for patients with post-stroke dysphagia: a letter to editor.](https://pubmed.ncbi.nlm.nih.gov/41560430/)
 - [Respiratory-swallow coordination training using bimodal signal biofeedback for patients with post-stroke dysphagia: a randomized controlled trial.](https://pubmed.ncbi.nlm.nih.gov/41466097/)
+
+### Riset Tanggal: 2026-03-26
+- [The role of physiotherapists in acute post-stroke neurorehabilitation: qualitative perspectives from clinicians and stroke unit managers.](https://pubmed.ncbi.nlm.nih.gov/41733307/)
