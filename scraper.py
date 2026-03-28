@@ -32,7 +32,7 @@ articles = fetch_pubmed_articles(NUM_COMMITS)
 today = datetime.datetime.now().strftime("%Y-%m-%d")
 
 # 2. Setup Identitas Git untuk GitHub Actions
-os.system('git config --local user.email "ilhamrgn22@gmail.com"')
+os.system('git config --local user.email "117716197+IlhamRichie@users.noreply.github.com"')
 os.system('git config --local user.name "IlhamRichie"')
 
 # 3. Looping untuk bikin Commit secara bertahap (biar kotaknya makin hijau!)
